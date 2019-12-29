@@ -33,7 +33,6 @@
 + Implement a Stack - Interview Problem 
 + Implement a Queue 
 + Implement a Deque - Interview Problem 
-+ Balanced Parentheses Check - Interview Problem 
 + Balanced Parentheses Check - Interview Problem - SOLUTION 
 + Implement a Queue using 2 Stacks - Interview Problem - SOLUTION 
 
