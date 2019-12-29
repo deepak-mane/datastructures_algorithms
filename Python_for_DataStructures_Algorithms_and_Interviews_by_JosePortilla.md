@@ -1,4 +1,4 @@
-# Topics Covered Under Python for Data Structures, Algorithms, and Interviews - by Jose Portilla
+# Python for Data Structures, Algorithms, and Interviews - by Jose Portilla
 
 ## Algorithm Analysis and Big O
 + Algorithm Analysis and Big O Section Overview 
