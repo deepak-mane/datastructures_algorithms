@@ -8,7 +8,7 @@ My Study of DataStructures and Algorithms
 - [Python for Data Structures, Algorithms, and Interviews! - Jose Portilla](https://www.udemy.com/course/python-for-data-structures-algorithms-and-interviews/)
 - [Data Structures and Algorithms Through C In Depth - Deepali Srivastava](https://www.udemy.com/course/data-structures-and-algorithms-in-c/)
 
-
+1. [Arrays - Dynamic]()
 1. [Recursion](https://en.wikipedia.org/wiki/Recursion)
 1. [Searching Algorithm](https://en.wikipedia.org/wiki/Search_algorithm)
 1. [Sorting Algorithm](https://en.wikipedia.org/wiki/Sorting_algorithm)
