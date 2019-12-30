@@ -12,7 +12,7 @@ My Study of DataStructures and Algorithms
   - [Learn Python Programming Masterclass - Tim Buchalka](https://www.udemy.com/course/python-the-complete-python-developer-course/)
 - [Data Structures and Algorithms Through C In Depth - Deepali Srivastava](https://www.udemy.com/course/data-structures-and-algorithms-in-c/)
   - [The Python Mega Course: Build 10 Real World Applications - Ardit Sulce](https://www.udemy.com/course/the-python-mega-course/)
-- [Master the Coding Interview: Data Structures + Algorithms](https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/)
+- [Master the Coding Interview: Data Structures + Algorithms - Andrei Neagoie](https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/)
 
 
 1. [Arrays - Dynamic]()
