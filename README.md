@@ -2,7 +2,7 @@
 My Study of DataStructures and Algorithms 
 
 ## DataStructures & Algorithm Courses
-- <b>In JavaScript :</b>
+- <b><u>In JavaScript :</u></b>
   - [The Coding Interview Bootcamp: Algorithms + Data Structures - Stephen Grider](https://www.udemy.com/course/coding-interview-bootcamp-algorithms-and-data-structure/) [JavaScript]
   - [JavaScript Algorithms and Data Structures Masterclass - Colt Steele](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/)
   - [Master the Coding Interview: Data Structures + Algorithms - Andrei Neagoie](https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/)
