@@ -14,45 +14,45 @@
 - Types of Linked List 
 - Array Vs Linked List
 
-- Single Linked List - SLL
-  1) Create Singly Linked List  - create_sll()
-  2) Display Singly Linked List - display_sll()
+- <b>Single Linked List - SLL</b>
+  1) Create Singly Linked List  - <b>create_sll()</b>
+  2) Display Singly Linked List - <b>display_sll()</b>
   3) Insert
-     + At Begining    - insert_at_begin_sll()
-     + At End         - insert_at_end_sll()
-     + After position - insert_after_pos_sll()
+     + At Begining    - <b>insert_at_begin_sll()</b>
+     + At End         - <b>insert_at_end_sll()</b>
+     + After position - <b>insert_after_pos_sll()</b>
   4) Delete
-     + At Begining   - delete_at_begin_sll()
-     + At End        - delete_at_end_sll()
-     + After postion - delet_after_pos_sll()
-  5) Reverse Singly Linked List - reverse_sll()
-  6) Find Length of Single Linked List - find_len_sll()
+     + At Begining   - <b>delete_at_begin_sll()</b>
+     + At End        - <b>delete_at_end_sll()</b>
+     + After postion - <b>delet_after_pos_sll()</b>
+  5) Reverse Singly Linked List - <b>reverse_sll()</b>
+  6) Find Length of Single Linked List - <b>find_len_sll()</b>
 
-- Doubly Linked List - DLL
-  1) Create Doubly Linked List  - create_dll()
-  2) Display Doubly Linked List - display_dll()
+- <b>Doubly Linked List - DLL</b>
+  1) Create Doubly Linked List  - <b>create_dll()</b>
+  2) Display Doubly Linked List - <b>display_dll()</b>
   3) Insert
-     + At Begining    - insert_at_begin_dll()
-     + At End         - insert_at_end_dll()
-     + After position - insert_after_pos_dll()
+     + At Begining    - <b>insert_at_begin_dll()</b>
+     + At End         - <b>insert_at_end_dll()</b>
+     + After position - <b>insert_after_pos_dll()</b>
   4) Delete
-     + At Begining   - delete_at_begin_dll()
-     + At End        - delete_at_end_dll()
-     + After postion - delet_after_pos_dll()
-  5) Reverse Doubly Linked List - reverse_dll()
-  6) Find Doubly of Single Linked List - find_len_dll()
+     + At Begining   - <b>delete_at_begin_dll()</b>
+     + At End        - <b>delete_at_end_dll()</b>
+     + After postion - <b>delet_after_pos_dll()</b>
+  5) Reverse Doubly Linked List - reverse_dll()</b>
+  6) Find Doubly of Single Linked List - find_len_dll()</b>
 
 
-- Circular Linked List - CLL
-  1) Create Circular Linked List  - create_cll()
-  2) Display Circular Linked List - display_cll()
+- <b>Circular Linked List - CLL</b>
+  1) Create Circular Linked List  - <b>create_cll()</b>
+  2) Display Circular Linked List - <b>display_cll()</b>
   3) Insert
-     + At Begining    - insert_at_begin_cll()
-     + At End         - insert_at_end_cll()
-     + After position - insert_after_pos_cll()
+     + At Begining    - <b>insert_at_begin_cll()</b>
+     + At End         - <b>insert_at_end_cll()</b>
+     + After position - <b>insert_after_pos_cll()</b>
   4) Delete
-     + At Begining   - delete_at_begin_cll()
-     + At End        - delete_at_end_cll()
-     + After postion - delet_after_pos_cll()
-  5) Reverse Circular Linked List - reverse_dcll()
+     + At Begining   - <b>delete_at_begin_cll()</b>
+     + At End        - <b>delete_at_end_cll()</b>
+     + After postion - <b>delet_after_pos_cll()</b>
+  5) Reverse Circular Linked List - <b>reverse_dcll()</b>
 
