@@ -88,7 +88,7 @@ struct node {
     int data;
     struct node * next; // pointer to next node
     struct node * prev; // pointer to previous node
-}                        
+}
 ```
 
   1) Create Circular Linked List  - <b>create_cll()</b>
@@ -115,7 +115,7 @@ struct node {
     int data;
     struct node * next; // pointer to next node
     struct node * prev; // pointer to previous node
-}                        
+}
 ```
 
   1) Create Doubly Circular Linked List  - <b>create_dcll()</b>
