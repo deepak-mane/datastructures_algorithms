@@ -16,6 +16,8 @@
 
 
 ### <b>Single Linked List - SLL</b>
+- Each node contains data part and address to the next Node.
+
 1) Create Singly Linked List  - <b>create_sll()</b>
   2) Display Singly Linked List - <b>display_sll()</b>
   3) Insert
