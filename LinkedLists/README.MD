@@ -17,6 +17,19 @@
 
 ### <b>Single Linked List - SLL</b>
 - Each node contains data part and address to the next Node.
+- Address of last node contains Null
+- Adress of first node is stored in Header (called Pointer)
+- Head Node is the Fist Node which is next to Header and contains both Data & Address
+- It has single link to next node so called singly linked list
+- You can only Traverse in Forward Sequentially
+- Representation of Single Linked List
+
+```cpp
+struct node {
+    int data;
+    struct node * next; // as this pointer is to the next node its data type is struct
+}
+```
 
 1) Create Singly Linked List  - <b>create_sll()</b>
   2) Display Singly Linked List - <b>display_sll()</b>
