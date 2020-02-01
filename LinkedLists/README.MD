@@ -62,7 +62,8 @@ struct node {
     struct node * next; // pointer to next node
     struct node * prev; // pointer to previous node
 }
-```                    
+```
+                  
   1) Create Doubly Linked List  - <b>create_dll()</b>
   2) Display Doubly Linked List - <b>display_dll()</b>
   3) Insert
@@ -81,6 +82,7 @@ struct node {
 - Has 2 Parts in its Node
 - Its sequence of elements where every element has link to next linked list and last node has link to the first link node.
 - Representation of Circular Linked List:
+
 ```cpp
 struct node {   
     int data;
@@ -107,6 +109,7 @@ struct node {
 - Last Node points to first Node
 - Previous Pointer to fist Node stores address to Last Node
 - Representation of Doubly Linked List:
+
 ```cpp
 struct node {   
     int data;
