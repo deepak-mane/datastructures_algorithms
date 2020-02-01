@@ -14,7 +14,9 @@
 - Types of Linked List 
 - Array Vs Linked List
 
-- <b>Single Linked List - SLL</b>
+| | |
+| ---| ---|
+|- <b>Single Linked List - SLL</b>
   1) Create Singly Linked List  - <b>create_sll()</b>
   2) Display Singly Linked List - <b>display_sll()</b>
   3) Insert
@@ -27,6 +29,8 @@
      + After postion - <b>delet_after_pos_sll()</b>
   5) Reverse Singly Linked List - <b>reverse_sll()</b>
   6) Find Length of Single Linked List - <b>find_len_sll()</b>
+||
+
 
 - <b>Doubly Linked List - DLL</b>
   1) Create Doubly Linked List  - <b>create_dll()</b>
