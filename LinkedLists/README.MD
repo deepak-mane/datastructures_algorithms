@@ -25,10 +25,10 @@
 - Representation of Single Linked List
 
 ```cpp
-struct node {
+struct node {   
     int data;
-    struct node * next; // as this pointer is to the next node its data type is struct
-}
+    struct node * next;  // as this pointer is to the 
+}                        // next node its data type is struct
 ```
 
 1) Create Singly Linked List  - <b>create_sll()</b>
