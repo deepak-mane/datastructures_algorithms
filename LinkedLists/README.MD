@@ -15,6 +15,12 @@
 - Array Vs Linked List
 
 
+- Pre-Requisites of Implementing Linked List
+  + Understanding what is linkedlist
+  + Know Dynamic Memory allocation, malloc function in C
+  + Know Pointers and Structure Data types
+  + Know accessing Structure Members
+
 ### <b>Single Linked List - SLL</b>
 - Has 3 Parts in its Node
 - Each node contains data part and address to the next Node.
@@ -32,6 +38,7 @@ struct node {
 }                        // next node its data type is struct
 ```
 
+  
 1) Create Singly Linked List  - <b>create_sll()</b>
   2) Display Singly Linked List - <b>display_sll()</b>
   3) Insert
