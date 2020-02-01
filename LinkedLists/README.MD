@@ -14,10 +14,9 @@
 - Types of Linked List 
 - Array Vs Linked List
 
-| | |
-| ---| ---|
-|- <b>Single Linked List - SLL</b>
-  1) Create Singly Linked List  - <b>create_sll()</b>
+
+### <b>Single Linked List - SLL</b>
+1) Create Singly Linked List  - <b>create_sll()</b>
   2) Display Singly Linked List - <b>display_sll()</b>
   3) Insert
      + At Begining    - <b>insert_at_begin_sll()</b>
@@ -32,7 +31,7 @@
 ||
 
 
-- <b>Doubly Linked List - DLL</b>
+### <b>Doubly Linked List - DLL</b>
   1) Create Doubly Linked List  - <b>create_dll()</b>
   2) Display Doubly Linked List - <b>display_dll()</b>
   3) Insert
@@ -47,7 +46,7 @@
   6) Find Doubly of Single Linked List - find_len_dll()</b>
 
 
-- <b>Circular Linked List - CLL</b>
+### <b>Circular Linked List - CLL</b>
   1) Create Circular Linked List  - <b>create_cll()</b>
   2) Display Circular Linked List - <b>display_cll()</b>
   3) Insert
@@ -60,7 +59,7 @@
      + After postion - <b>delet_after_pos_cll()</b>
   5) Reverse Circular Linked List - <b>reverse_cll()</b>
   
-- <b>Doubly Circular Linked List - CLL</b>
+### <b>Doubly Circular Linked List - CLL</b>
   1) Create Doubly Circular Linked List  - <b>create_dcll()</b>
   2) Display Doubly Circular Linked List - <b>display_dcll()</b>
   3) Insert
