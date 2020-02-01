@@ -16,13 +16,14 @@
 
 
 ### <b>Single Linked List - SLL</b>
+- Has 3 Parts in its Node
 - Each node contains data part and address to the next Node.
 - Address of last node contains Null
 - Adress of first node is stored in Header (called Pointer)
 - Head Node is the Fist Node which is next to Header and contains both Data & Address
 - It has single link to next node so called singly linked list
 - You can only Traverse in Forward Sequentially
-- Representation of Single Linked List
+- Representation of Single Linked List:
 
 ```cpp
 struct node {   
@@ -47,6 +48,21 @@ struct node {
 
 
 ### <b>Doubly Linked List - DLL</b>
+- Has 3 Parts in its Node
+  - Previous Node Pointer
+  - Data Part
+  - Next Node Pointer
+
+- First Node has - Previous Node as Null, Next Node has next Nodes address, Last Noder has Next Node as Null
+- Representation of Single Linked List:
+
+```cpp
+struct node {   
+    int data;            // Data Part
+    struct node * next; // pointer to next node
+    struct node * prev; // pointer to previous node
+}
+```                    
   1) Create Doubly Linked List  - <b>create_dll()</b>
   2) Display Doubly Linked List - <b>display_dll()</b>
   3) Insert
@@ -60,8 +76,18 @@ struct node {
   5) Reverse Doubly Linked List - reverse_dll()</b>
   6) Find Doubly of Single Linked List - find_len_dll()</b>
 
-
 ### <b>Circular Linked List - CLL</b>
+- Its circular. It has variation of single linked list.
+- Has 2 Parts in its Node
+- Its sequence of elements where every element has link to next linked list and last node has link to the first link node.
+- Representation of Circular Linked List:
+```cpp
+struct node {   
+    int data;
+    struct node * next; // pointer to next node
+    struct node * prev; // pointer to previous node
+}                        
+```
   1) Create Circular Linked List  - <b>create_cll()</b>
   2) Display Circular Linked List - <b>display_cll()</b>
   3) Insert
@@ -75,6 +101,18 @@ struct node {
   5) Reverse Circular Linked List - <b>reverse_cll()</b>
   
 ### <b>Doubly Circular Linked List - CLL</b>
+- Doubly linked list can be made into Doubly circular linked list
+- Has 3 Parts in its Node
+- Last Node points to first Node
+- Previous Pointer to fist Node stores address to Last Node
+- Representation of Doubly Linked List:
+```cpp
+struct node {   
+    int data;
+    struct node * next; // pointer to next node
+    struct node * prev; // pointer to previous node
+}                        
+```
   1) Create Doubly Circular Linked List  - <b>create_dcll()</b>
   2) Display Doubly Circular Linked List - <b>display_dcll()</b>
   3) Insert
