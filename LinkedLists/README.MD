@@ -54,5 +54,18 @@
      + At Begining   - <b>delete_at_begin_cll()</b>
      + At End        - <b>delete_at_end_cll()</b>
      + After postion - <b>delet_after_pos_cll()</b>
-  5) Reverse Circular Linked List - <b>reverse_dcll()</b>
+  5) Reverse Circular Linked List - <b>reverse_cll()</b>
+  
+- <b>Doubly Circular Linked List - CLL</b>
+  1) Create Doubly Circular Linked List  - <b>create_dcll()</b>
+  2) Display Doubly Circular Linked List - <b>display_dcll()</b>
+  3) Insert
+     + At Begining    - <b>insert_at_begin_dcll()</b>
+     + At End         - <b>insert_at_end_dcll()</b>
+     + After position - <b>insert_after_pos_dcll()</b>
+  4) Delete
+     + At Begining   - <b>delete_at_begin_dcll()</b>
+     + At End        - <b>delete_at_end_dcll()</b>
+     + After postion - <b>delet_after_pos_dcll()</b>
+  5) Reverse Doubly Circular Linked List - <b>reverse_dcll()</b>
 
