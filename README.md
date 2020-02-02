@@ -25,7 +25,7 @@ My Study of DataStructures and Algorithms
   - [Learn Python Programming Masterclass - Tim Buchalka](https://www.udemy.com/course/python-the-complete-python-developer-course/)
   - [The Python Mega Course: Build 10 Real World Applications - Ardit Sulce](https://www.udemy.com/course/the-python-mega-course/)
 
-- From Geek
+- <b>From Geek youtube channel </b>
   + [96]Arrays
   + [56]LinkedList
   + [21]Stack
