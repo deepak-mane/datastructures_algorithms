@@ -31,7 +31,7 @@ My Study of DataStructures and Algorithms
   + [21]Stack()
   + [8]Queue()
   + [28]Graph()
-  + [199]Trees
+  + [199][Trees](https://www.youtube.com/playlist?list=PLqM7alHXFySHCXD7r1J0ky9Zg_GBB1dbk)
   + [8]Hashing()
   + [2]Trie()
   + [4]Matrix()
