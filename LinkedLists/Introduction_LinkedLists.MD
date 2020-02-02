@@ -28,11 +28,7 @@ In Java or C#, LinkedList can be represented as a class and a Node as a separate
 
 ```cpp
 //============================================================================
-// Name        : Test.cpp
-// Author      : Deepak Mane
-// Version     :
-// Copyright   : Your copyright notice
-// Description : Hello World in C++, Ansi-style
+// Description : Singly Linked List with 3 nodes
 //============================================================================
 
 #include <iostream>
