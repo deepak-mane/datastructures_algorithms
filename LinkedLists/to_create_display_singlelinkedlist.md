@@ -2,23 +2,6 @@
 
 - Using Array elements:
 ```cpp
-/*
- * =====================================================================================
- *
- *       Filename:  main.c
- *
- *    Description:  LinkedList-Implementation
- *
- *        Version:  1.0
- *        Created:  02/02/2020 10:23:26 AM
- *       Revision:  none
- *       Compiler:  gcc
- *
- *         Author:  DEEPAK MANE (DM), deepak.mane123@gmail.com
- *   Organization:  deepaksmane.com
- *
- * =====================================================================================
- */
 #include <stdio.h>
 #include <stdlib.h>
 
