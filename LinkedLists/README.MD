@@ -1,20 +1,14 @@
 # Datastructures & Algorithms : LinkedLists
 
-
 ||||
 |---|---|---|
 ||||
 ||||
 ||||
 
-
-
-
 - Introduction and Need of Linked List Data Structures
 - Types of Linked List 
 - Array Vs Linked List
-
-
 - Pre-Requisites of Implementing Linked List
   + Understanding what is linkedlist
   + Know Dynamic Memory allocation, malloc function in C
@@ -137,7 +131,7 @@ struct node {
      + After postion - <b>delet_after_pos_dcll()</b>
   5) Reverse Doubly Circular Linked List - <b>reverse_dcll()</b>
 
-## Top 20 Linked List Interview Question
+## [Top 20 Linked List Interview Question](https://www.geeksforgeeks.org/top-20-linked-list-interview-question/)
 1. + [Print the Middle of a given linked list](./middle_of_linkedlist.md)
 1. + [Flattening a linked list]()
 1. + [Delete the elements in an linked list whose sum is equal to zero]()
