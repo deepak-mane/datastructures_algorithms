@@ -6,7 +6,7 @@
 ||||
 ||||
 
-- Introduction and Need of Linked List Data Structures
+- [Introduction and Need of Linked List Data Structures](./Introduction_LinkedLists.MD)
 - Types of Linked List 
 - Array Vs Linked List
 - Pre-Requisites of Implementing Linked List
