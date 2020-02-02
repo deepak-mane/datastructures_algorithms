@@ -26,27 +26,27 @@ My Study of DataStructures and Algorithms
   - [The Python Mega Course: Build 10 Real World Applications - Ardit Sulce](https://www.udemy.com/course/the-python-mega-course/)
 
 - <b>From Geek youtube channel </b>
-  + [96]Arrays
-  + [56]LinkedList
-  + [21]Stack
-  + [8]Queue
-  + [28]Graph - 10 ============  
-  + [199]Trees - 032 ============  
-  + [8]Hashing
-  + [2]Trie
-  + [4]Matrix
-  + [60]Amazon - 29 ============  
-  + [35]Microsift
-  + [4]Google - 0 ============  
-  + [14]Samsung
-  + [13]Adobe - 11 ============  
-  + [4]Facebook
-  + [10]Oracle
-  + [8]GoldMan
-  + [14]Flipkart
-  + [9]Cisco
-  + [9]Morgan - 8 ============  
-  + [7]Visa - 7
+  + [96]Arrays()
+  + [56]LinkedList()
+  + [21]Stack()
+  + [8]Queue()
+  + [28]Graph()
+  + [199]Trees
+  + [8]Hashing()
+  + [2]Trie()
+  + [4]Matrix()
+  + [60]Amazon
+  + [35]Microsift()
+  + [4]Google
+  + [14]Samsung()
+  + [13]Adobe
+  + [4]Facebook()
+  + [10]Oracle()
+  + [8]GoldMan()
+  + [14]Flipkart()
+  + [9]Cisco()
+  + [9][Morgan](https://www.youtube.com/playlist?list=PLqM7alHXFySHx5l_vi69llo3Yt9AlOMSj)
+  + [7][Visa](https://www.youtube.com/playlist?list=PLqM7alHXFySG-fqFD2faIdcrN20ozXLya)
 
 
 
