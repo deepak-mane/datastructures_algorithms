@@ -137,3 +137,23 @@ struct node {
      + After postion - <b>delet_after_pos_dcll()</b>
   5) Reverse Doubly Circular Linked List - <b>reverse_dcll()</b>
 
+## Top 20 Linked List Interview Question
+1. Print the Middle of a given linked list
+1. Flattening a linked list
+1. + Delete the elements in an linked list whose sum is equal to zero
+1. + Delete middle of linked list
+1. + Remove duplicate elements from sorted linked list
+1. + Add 1 to a number represented as a linked list
+1. + Reverse a linked list in groups of given size
+1. + Detect loop in linked list
+1. + Remove loop in linked list
+1. + Find nth node from the end of linked list
+1. + Function to check if a singly linked list is a palindrome
+1. + Reverse alternate k node in a singly linked list
+1. + Delete last occurrence of an item from linked list
+1. + Rotate a linked list.
+1. + Delete n nodes after m nodes of a linked list.
+1. + Merge a linked list into another linked list at alternate positions.
+1. + Write a function to delete a linked list.
+1. + Write a function to reverse the nodes of a linked list.
+1. + Why quicksort is preferred for arrays and merge sort for linked lists.
