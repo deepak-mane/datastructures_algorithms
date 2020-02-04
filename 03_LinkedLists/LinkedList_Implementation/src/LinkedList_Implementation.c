@@ -11,37 +11,74 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "ume.h"
-#define MAX_SIZE 1000 //Maximum array size
 
+
+int input();
+void output(float);
 
 // Driver Function
 int main() {
-    int arr[MAX_SIZE]; // Declare an array of MAX_SIZE
-    int i, N;
+	float result;
+	int choice, num;
 
-    /* Input array size */
-    printf("Enter size of array: ");
-    scanf("%d", &N);
 
-    /* Input elements in array */
-    printf("Enter %d elements in the array : ", N);
-    for(i=0; i<N; i++)
-    {
-        scanf("%d", &arr[i]);
-    }
+	printf("        MENU DRIVER PROGRAM !!!\n");
+	printf("------------------------------------------\n\n");
+	do {
+		printf("Press 1 to Create Linked List & Display\n");
+		printf("Press 2 to Create Linked List & Use Recursion to Display\n");
+		printf("Press 3 to calculate area of sphere\n");
+		printf("Press 9 to Exit\n");
+		printf("Enter your choice:\n");
+		choice = input();
 
-    /*
-     * Print all elements of array
-     */
-    printf("\nElements in array are: ");
-    for(i=0; i<N; i++)
-    {
-        printf("%d ", arr[i]);
-    }
+		switch (choice) {
+		case 1: {
+			create_sll();
+			printf("\nThe LinkedList created is as Below :\n");
+			printf("HEAD");
+			display_sll(first);
+			printf("\n------------------------------------------\n\n");
+			printf("\n\nWhat's Next you want to do ...\n");
+			break;
+		}
+		case 2: {
+			create_sll();
+			printf("\nThe LinkedList created is as Below :\n");
+			printf("HEAD");
+			recursive_display_sll(first);
+			printf("\n------------------------------------------\n\n");
+			printf("\n\nWhat's Next you want to do ...\n");
+			break;
+		}
+		case 3: {
+			printf("Enter radius:\n");
+			num = input();
+			result = 4 * (3.14 * num * num);
+			printf("Area of sphere=");
+			output(result);
+			printf("\n\n");
+			break;
+		}
+		case 9: {
+			printf("Bye-Bye:\n");
+			break;
+		}
+		default:
+			printf("wrong Input\n");
+		}
+	} while (choice != 9);
 
-	create_sll(arr,N);
-	printf("\nThe LinkedList created is as Below :\n");
-	display_sll(first);
 	return 0;
+}
+
+int input() {
+	int number;
+	scanf("%d", &number);
+	return (number);
+}
+
+void output(float number) {
+	printf("%f", number);
 }
 // END OF PROGRAM
