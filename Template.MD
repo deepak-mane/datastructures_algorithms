@@ -8,7 +8,7 @@ __Solution :__ <explain the proposed solution in tabular form>
 
 || Method1 | Method2 | Method3 |
 |---|---|---|---|
-|| *<explain method1>*  | *<explain method2>* | *<explain method3>* |
+|| *explain method1*  | *<explain method2>* | *<explain method3>* |
 |__Time Complexity__|  |  |  |
 |__Space Complexity__ | | | 
 
