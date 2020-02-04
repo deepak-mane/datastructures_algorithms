@@ -115,3 +115,23 @@ int main() {
 }
 // END OF PROGRAM
 ```
+
+
+## Issues
+- C++ Multiple Definition of Struct
+  +  
+  	``` 
+  	b.o:(.bss+0x0): multiple definition of `foo'
+	having
+
+	// util.hpp
+	...
+	// New variable
+	int foo;
+	each time you include util.hpp you define again the global variable foo, producing your error
+
+	in the header file just declare it (extern int foo;) and define it on one source file
+
+	There is not the same problem for the struct Point because this is a type definition, not a global variable definition
+	```
+	
