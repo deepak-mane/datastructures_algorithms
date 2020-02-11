@@ -2,8 +2,6 @@
 
 
 ```c
-
-
 /*
  ============================================================================
  Name        : LLDisplay.c
@@ -16,10 +14,13 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdbool.h>
 
+//Global Variables
+int node_count;
+bool have_exited = true;
 
-int node_count; //Global Variable
-
+// data structure for Node of Linked List
 struct Node {
 	int data;
 	struct Node * next;
@@ -59,6 +60,19 @@ void display(struct Node * temp) {
 	printf("\nThe Count of Nodes in LinkedList is as Below : %d \n", node_count);
 }
 
+void recursive_display(struct Node * temp) {
+	if(temp!=NULL) {
+		printf("-->%d", temp->data);
+		recursive_display(temp->next);
+	}
+}
+
+void rev_recursive_display(struct Node * temp) {
+	if(temp!=NULL) {
+		rev_recursive_display(temp->next);
+		printf("-->%d", temp->data);
+	}
+}
 // Function To Count Nodes in Linked List
 int count_nodes_sll(struct Node *p) {
 	int node_count = 0;
@@ -67,6 +81,25 @@ int count_nodes_sll(struct Node *p) {
 		p=p->next;
 	}
 	return node_count;
+}
+
+// Function To Sum All Data Elements in Linked List
+int sum_sll(struct Node *p) {
+	int sum_data = 0;
+	while(p!=NULL) {
+		sum_data = sum_data + p->data;
+		p=p->next;
+	}
+	return sum_data;
+}
+
+// Function To Recursively Sum All Data Elements in Linked
+int recursively_sum_sll(struct Node *p) {
+	int sum_data = 0;
+	if(p==0)
+		return 0;
+	else
+		return recursively_sum_sll(p->next) + p->data;
 }
 
 void insert_begin_sll() {
@@ -136,9 +169,9 @@ int main() {
 		printf("Press 001 to Insert at Beginning of Singly Linked List\n");
 		printf("Press 002 to Insert at Ending of Singly Linked List\n");
 		printf("Press 003 to Insert after Specific Position in Singly Linked List\n");
-		printf("Press 004 to Sum of Elements  in sll\n");
+		printf("Press 004 to Recursive Display  in sll\n");
 		printf("Press 005 to Find Max Element in sll\n");
-		printf("Press 006 to XXXX  sll\n");
+		printf("Press 006 to Sum of Elements  in sll\n");
 		printf("Press 007 to Search for Element in sll\n");
 		printf("Press 100 to Exit\n");
 		printf("Enter your choice: ");
@@ -160,17 +193,46 @@ int main() {
 			display(head);
 			break;
 		}
+		case 004: {
+			printf("\nThe LinkedList created is as Below :\n");
+			printf("[HEAD]");
+			recursive_display(head);
+			int node_count1 = count_nodes_sll(head);
+			printf("\nThe Count of Nodes in LinkedList is as Below : %d \n", node_count1);
+			printf("\nThe Reversed LinkedList created is as Below :\n");
+			printf("[HEAD]");
+			rev_recursive_display(head);
+			int node_count2 = count_nodes_sll(head);
+			printf("\nThe Count of Nodes in LinkedList is as Below : %d \n", node_count2);
+			break;
+		}
+		case 005: {
+			insert_position_sll();
+			break;
+		}
+		case 006: {
+			int sum_data1 = sum_sll(head);
+			printf("\nThe Sum of All Data Elements in LinkedList is : %d \n", sum_data1);
+			int sum_data2 = recursively_sum_sll(head);
+			printf("\nThe Recursive Sum of All Data Elements in LinkedList is : %d \n", sum_data2);
+			break;
+		}
 		case 100: {
 			printf("Bye-Bye:\n");
+			bool have_exited = true;
 			break;
 		}
 		default:
 			printf("wrong Input\n");
 		}
-		printf("\n------o----------o---------o-------o----------");
-		printf("\nWhat's Next you want to do ... : ");
+		if(!have_exited) {
+			printf("\n------o----------o---------o-------o----------");
+			printf("\nWhat's Next that you like to do ... : ");
+		}
+
 	} while (choice != 100);
 
 	return 0;
 }
+
 ```
