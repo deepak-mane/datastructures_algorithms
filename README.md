@@ -4,6 +4,7 @@ My Study of DataStructures and Algorithms
 __Resource__
 - [Techiedelight](https://www.techiedelight.com/convert-string-to-int-cpp/)
 - [programiz.com cpp-programming](https://www.programiz.com/cpp-programming)
+- [Tutorials Point - youtube](https://www.youtube.com/channel/UCVLbzhxVTiTLiVKeGV7WEBg/search?query=c%2B%2B)
 
 ## DataStructures & Algorithm Courses
 - <b><u>In JavaScript :</u></b>
