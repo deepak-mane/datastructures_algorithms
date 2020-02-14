@@ -5,6 +5,7 @@ __Resource__
 - [Techiedelight](https://www.techiedelight.com/convert-string-to-int-cpp/)
 - [programiz.com cpp-programming](https://www.programiz.com/cpp-programming)
 - [Tutorials Point - youtube](https://www.youtube.com/channel/UCVLbzhxVTiTLiVKeGV7WEBg/search?query=c%2B%2B)
+- [Sources - Gaurav Sen,Rachit Jain - competitive programming ](https://github.com/deepak-mane/my-job-descriptions/blob/master/QuickApply.md)
 
 ## DataStructures & Algorithm Courses
 - <b><u>In JavaScript :</u></b>
