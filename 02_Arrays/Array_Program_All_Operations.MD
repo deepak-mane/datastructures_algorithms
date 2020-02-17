@@ -115,24 +115,26 @@ int BinarySearch(struct Array arr, int key) {
 	return -1;
 }
 
+int RBinSearch(int a[], int l, int h, int key) {
+	int mid;
+	if(l<=h) {
+		mid=(l+h)/2;
+		if(key==a[mid]) {
+			return mid;
+		} else if(key<a[mid]) {
+			return RBinSearch(a,l,mid-1,key);
+		} else {
+			return RBinSearch(a,mid+1,h,key);
+		}
+	}
+
+	return -1;
+}
+
 int main() {
 	// Calculate the time taken by fun()
 	clock_t t;
 	t = clock();
-	//fill array with pseudo random numbers
-//	srand(time(NULL));
-//    unsigned long long i;
-//
-//    struct foo bar[100000];
-//    for(i=0; i<100000; i++){
-//        bar[i].field_1 = rand() %10000;
-//        bar[i].field_2 = rand() %10000;
-//    }
-//
-//    for(i=0; i<100000; i++){
-//       printf("bar[%lld]:: field_1: %lld field_2: %lld\n", i, bar[i].field_1, bar[i].field_2);
-//    }
-
 
 	struct Array arr = { { 2, 3, 4, 5, 6 }, 10, 5 };
 //  2. Append Operation
@@ -147,30 +149,15 @@ int main() {
 //	printf("%d\n",LinearSearch(&arr,5));
 
 //	6. Binary Search Operation
-	printf("%d\n", BinarySearch(arr, 5));
+//	printf("%d\n", BinarySearch(arr, 5));
+
+//	6. Recursive Binary Search Operation
+	printf("%d\n", RBinSearch(arr.A,0,arr.length,5));
+
 
 	// 1. Display Operation
 	Display(arr);
 
-
-//	int randoms[100];
-//	int range;
-//	int successes = 0;
-//	int rnd_number,i,j;
-//	for (i = 0; i < 100; ++i) {
-//		rnd_number = rand() % range + 1;
-//
-//		for (j = 0; j < 100; ++j) {
-//
-//			if (randoms[i] == rnd_number) {
-//				++successes;
-//			}
-//
-//		}
-//
-//	}
-//
-//	printf("Successes = %d\n", successes);
 
 	t = clock() - t;
 	double time_taken = ((double) t) / CLOCKS_PER_SEC; // in seconds
@@ -179,7 +166,5 @@ int main() {
 			time_taken);
 	return 0;
 }
-
-
 
 ```
