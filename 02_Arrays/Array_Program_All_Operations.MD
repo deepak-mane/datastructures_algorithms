@@ -1,6 +1,5 @@
 # Array | Program all operations
 
-
 ```c
 /*
  ============================================================================
@@ -131,6 +130,52 @@ int RBinSearch(int a[], int l, int h, int key) {
 	return -1;
 }
 
+int Get(struct Array arr,int index ) {
+	if(index>0 && index<arr.length) {
+		return arr.A[index];
+	}
+	return -1;
+}
+
+void Set(struct Array *arr, int index, int x) {
+	if(index>=0 && index<arr->length){
+		arr->A[index]=x;
+	}
+}
+
+int Max(struct Array arr) {
+	int max=arr.A[0];
+	int i;
+	for(i=1;i<arr.length;i++) {
+		if(arr.A[i]>max)
+			max=arr.A[i];
+	}
+	return max;
+}
+
+int Min(struct Array arr) {
+	int min=arr.A[0];
+	int i;
+	for(i=1;i<arr.length;i++) {
+		if(arr.A[i]<min)
+			min=arr.A[i];
+	}
+	return min;
+}
+
+int Sum(struct Array arr) {
+	int s=0;
+	int i;
+	for(i=0;i<arr.length;i++) {
+		s+=arr.A[i];
+	}
+	return s;
+}
+
+float Avg(struct Array arr) {
+	return (float)Sum(arr)/arr.length;
+}
+
 int main() {
 	// Calculate the time taken by fun()
 	clock_t t;
@@ -138,26 +183,43 @@ int main() {
 
 	struct Array arr = { { 2, 3, 4, 5, 6 }, 10, 5 };
 //  2. Append Operation
-//	Append(&arr, 10);
+	Append(&arr, 10);
 //	3. Insert Operation
-//	Insert(&arr, 4,100);
+	Insert(&arr, 4,100);
 
 //	4. Delete Operation
-//	printf("%d\n",Delete(&arr,4));
+	printf("%d\n",Delete(&arr,4));
 
 //	5. Linear Search Operation
-//	printf("%d\n",LinearSearch(&arr,5));
+	printf("%d\n",LinearSearch(&arr,5));
 
 //	6. Binary Search Operation
-//	printf("%d\n", BinarySearch(arr, 5));
+	printf("%d\n", BinarySearch(arr, 5));
 
-//	6. Recursive Binary Search Operation
+//	7. Recursive Binary Search Operation
 	printf("%d\n", RBinSearch(arr.A,0,arr.length,5));
 
 
-	// 1. Display Operation
-	Display(arr);
+//	8. Get function
+	printf("%d\n",Get(arr,9));
 
+//	9. Set function
+	Set(&arr,0,15);
+
+//	10. Find Max Element of Array
+	printf("%d\n",Max(arr));
+
+//	11. Find Min Element of Array
+	printf("%d\n",Min(arr));
+
+//	12. Find Sum of all Element of Array
+	printf("%d\n",Sum(arr));
+
+//	13. Find Average of all Element of Array
+	printf("%0.3f\n",Avg(arr));
+
+// 1. Display Operation
+	Display(arr);
 
 	t = clock() - t;
 	double time_taken = ((double) t) / CLOCKS_PER_SEC; // in seconds
@@ -166,5 +228,7 @@ int main() {
 			time_taken);
 	return 0;
 }
+
+
 
 ```
